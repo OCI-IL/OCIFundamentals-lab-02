@@ -98,7 +98,7 @@
 
 10.	**View your HPA**
 
-    ***kubectl get hpa oci-fund-nginx***
+        kubectl get hpa oci-fund-nginx
 
     ![drawing](./SS/hpa_fund_nginx.png)
 
