@@ -29,14 +29,16 @@
       ![drawing](./img/access_cluster.png)
 
 
+
 3.	Launch “**Cloud Shell**” and paste the command grant you the access to your cluster.
+
 
 
 4. **Clone the code repository**
 
     Clone the code into your device by running the following command:
 
-        git clone https://github.com/OCI-IL/OCIFundamentals-lab-02
+        git clone https://github.com/OCI-IL/OCIFundamentals-lab-02.git
 
     Then, run the following command:
 
@@ -71,7 +73,7 @@
 
 
 
-***Extra***
+***Bonus***
 
 1.	**Deploy OKE Cluster Autoscaler**
     Deploy the OKE Cluster Autoscaler by using the following documentation:
