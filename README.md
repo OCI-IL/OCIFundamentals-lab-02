@@ -1,7 +1,7 @@
-# OKE Workshop!
+# OKE Workshop
 
 
-<ins>**Lab 2 – OKE – Application Autoscaling** </ins>
+<ins>**Lab 2 – OKE – NGINX Web Application** </ins>
 
 - **Pre-requisites (for this lab):**
 
