@@ -1,4 +1,4 @@
-# OKE Workshop
+# OKE Workshop!
 
 
 <ins>**Lab 2 – OKE – Application Autoscaling** </ins>
