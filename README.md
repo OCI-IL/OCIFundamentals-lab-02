@@ -12,7 +12,7 @@
 
    1. First, make sure you're using the right region - Israel Central (Jerusalem)
 
-      ![drawing](./SS/create_cluster.png)
+      ![drawing](./img/cluster_creation.png)
 
     -	**Name**: Choose your cluster name
     -	**Kubernetes** version: v1.24.1
@@ -32,7 +32,7 @@
 
 2. Go to the Cluster page, click on “**Access Cluster**”
 
-      ![drawing](./SS/access_cluster.png)
+      ![drawing](./img/access_cluster.png)
 
 
 3.	Launch “**Cloud Shell**” and paste the command grant you the access to your cluster.
@@ -82,11 +82,11 @@
 
         kubectl get service oci-fund-nginx
 
-    ![drawing](./SS/oci_fund_nginx.png)
+    ![drawing](./img/oci_fund_nginx.png)
  
     Copy the IP Address and paste it in the browser (http://<IP-ADDRESS\>)
 
-    ![drawing](./SS/welcome_to_nginx.png)
+    ![drawing](./img/welcome_to_nginx.png)
 
 
 9.	**Deploy Horizontal Pod Autoscaler (HPA)**
@@ -100,7 +100,7 @@
 
         kubectl get hpa oci-fund-nginx
 
-    ![drawing](./SS/hpa_fund_nginx.png)
+    ![drawing](./img/hpa_fund_nginx.png)
 
 
 11.	**Test the HPA**
@@ -117,7 +117,7 @@
 
     **(Exit by type Ctrl+C)**
 
-    ![drawing](./SS/2hpa_fund_nginx.png)
+    ![drawing](./img/2hpa_fund_nginx.png)
 
 
 12.	**Deploy OKE Cluster Autoscaler**
