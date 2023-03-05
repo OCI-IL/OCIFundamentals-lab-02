@@ -32,7 +32,7 @@
 3.	Launch “**Cloud Shell**” and paste the command grant you the access to your cluster.
 
 
-5. **Clone the code repository**
+4. **Clone the code repository**
 
     Clone the code into your device by running the following command:
 
@@ -43,21 +43,21 @@
         cd OCIFundamentals-lab-02/
 
 
-6.	**Deploy the Application (NGINX) & Service type LoadBalancer**
+5.	**Deploy the Application (NGINX) & Service type LoadBalancer**
 
     To deploy the web application and its service type LoadBalancer (which will expose the application to the public), run the following command:
 
         kubectl apply -f nginx.yaml
 
 
-7.	**Validate the application is running**
+6.	**Validate the application is running**
 
     Validate the application is running by running the following command:
 
         kubectl get pods
 
 
-8.	**Get the Service Public IP Address**
+7.	**Get the Service Public IP Address**
 
     Run the following command in order to get the Service Public IP Address:
 
@@ -73,7 +73,7 @@
 
 ***Extra***
 
-12.	**Deploy OKE Cluster Autoscaler**
+1.	**Deploy OKE Cluster Autoscaler**
     Deploy the OKE Cluster Autoscaler by using the following documentation:
     
     https://docs.oracle.com/en-us/iaas/Content/ContEng/Tasks/contengusingclusterautoscaler.htm#Working_with_the_Cluster_Autoscaler
